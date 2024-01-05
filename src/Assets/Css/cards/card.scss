@@ -1,0 +1,46 @@
+.CardSection{
+    display: flex;
+    justify-content: center;
+    .cardholder{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%;
+        .cards{
+            min-height: 350px;
+            min-width: 250px;
+            max-width: 350px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            .image{
+                width:90%;
+                img{
+                    width: 100%;
+                    display: block;
+                }
+            }
+            .cardtext{
+                text-align:center;
+                width: 90%;
+                overflow-wrap: anywhere;
+                font-size: 16px;
+                font-weight: 300;
+            }
+        }
+    }
+    
+}
+@media screen and (max-width: 1097px){
+        
+    .CardSection{
+        .cardholder{
+            justify-content: center;
+            gap: 30px;
+        }
+    }
+
+}

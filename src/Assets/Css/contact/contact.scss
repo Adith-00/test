@@ -1,0 +1,52 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    .title{
+        font-size: 35px;
+        font-weight: 300;
+    }
+    .info{
+        text-align: center;
+        width: 40%;
+        word-spacing: 5px;
+        overflow-wrap: anywhere;
+        font-size: 18px;
+        line-height: 25px;
+        font-weight: 200;
+        span{
+            font-weight: 600;
+        }
+    }
+    .buttons{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        button{
+        width: 300px;
+        height: 45px;
+        }
+        .contactbtn{
+            background-color: white;
+            font-size: 14px;
+            color: black;
+        }
+        .skype{
+            border: 1px solid white;
+            background-color: black;
+            font-size: 14px;
+            color: rgb(255, 255, 255);
+        }
+        
+    }
+}
+    @media screen and (max-width: 1097px){
+        .contact{
+            .info{
+                width: 60%;
+            }
+        }
+
+    }

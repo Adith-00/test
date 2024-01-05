@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  vertical-align: baseline;
+  background: transparent;
+  font-weight: normal;
+  text-decoration: none;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+* button {
+  cursor: pointer;
+}
+
+body {
+  background-color: black;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.main {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 100px;
+}
+.main .close {
+  align-self: fl;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 30px;
+}
+.main .close .image {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.main .close .image:hover img {
+  transition: 0.3s ease-in;
+  transform: rotate(-180deg);
+}
+.main .close .image img {
+  transition: 0.3s ease-out;
+  width: 100%;
+  display: block;
+}
+.main .hero {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.main .hero .heading {
+  width: 80%;
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+  word-spacing: 6px;
+}
+.main .hero .image {
+  width: 90%;
+}
+.main .hero .image img {
+  width: 100%;
+  display: block;
+}
+.main .hero .heroInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.main .hero .heroInfo p {
+  width: 70%;
+  overflow-wrap: anywhere;
+  text-align: center;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: 200;
+}
+.main .hero .heroInfo .heroButton {
+  display: flex;
+  width: 30%;
+  height: 45px;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+.main .hero .heroInfo .heroButton:hover {
+  transition: 0.2s ease;
+  background-color: rgba(255, 255, 255, 0.769);
+}
+.main .footer {
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.626);
+  text-align: center;
+  padding: 10px;
+}
+
+@media screen and (max-width: 1097px) {
+  .main .hero .heading {
+    font-size: 37px;
+  }
+  .main .hero .heroInfo p {
+    width: 90%;
+  }
+}/*# sourceMappingURL=main.css.map */

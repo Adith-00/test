@@ -1,0 +1,42 @@
+.CardSection {
+  display: flex;
+  justify-content: center;
+}
+.CardSection .cardholder {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+.CardSection .cardholder .cards {
+  min-height: 350px;
+  min-width: 250px;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.CardSection .cardholder .cards .image {
+  width: 90%;
+}
+.CardSection .cardholder .cards .image img {
+  width: 100%;
+  display: block;
+}
+.CardSection .cardholder .cards .cardtext {
+  text-align: center;
+  width: 90%;
+  overflow-wrap: anywhere;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 1097px) {
+  .CardSection .cardholder {
+    justify-content: center;
+    gap: 30px;
+  }
+}/*# sourceMappingURL=card.css.map */

@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    vertical-align: baseline;
+    background: transparent;
+    font-weight: normal;
+    text-decoration: none;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+    button{
+        cursor: pointer;
+    }
+}
+body{
+    background-color: black;
+    
+    
+}
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+.main{
+     color: white;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     gap: 100px;
+     .close{
+        align-self: fl;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 30px;
+         .image{
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+            &:hover{
+                img{
+                    transition: 0.3s ease-in;
+                    transform: rotate(-180deg);
+                }
+               
+            }
+            img{
+                transition: 0.3s ease-out;
+                width: 100%;
+                display: block;
+              }
+         }
+         
+     }
+     .hero{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+        .heading{
+            width: 80%;
+            font-size: 40px;
+            font-weight: 300;
+            text-align: center;
+            word-spacing: 6px;
+        }
+        .image{
+            width: 90%;
+            img{
+                width: 100%;
+                display: block;
+            }
+        }
+        .heroInfo{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+            p{
+                width: 70%;
+                overflow-wrap: anywhere;
+                text-align: center;
+                line-height: 25px;
+                font-size: 18px;
+                font-weight: 200;
+            }
+            .heroButton{
+                display: flex;
+                width: 30%;
+                height: 45px;
+                justify-content: center;
+                align-items: center;
+                font-size: 15px;
+                font-weight: 600;
+                text-align: center;
+                background-color: white;
+                color: black;
+                &:hover{
+                    transition: 0.2s ease;
+                    background-color: rgba(255, 255, 255, 0.769);
+                }
+            }
+        }
+     }
+     .footer{
+        font-size: 12px;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 0.626);
+        text-align: center;
+        padding: 10px;
+     }
+}
+@media screen and (max-width: 1097px){
+     .main{
+        .hero{
+            .heading{
+                font-size: 37px;
+            }
+            .heroInfo{
+                p{
+                    width: 90%;
+                }
+            }
+        }
+     }   
+
+}
