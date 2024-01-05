@@ -121,4 +121,13 @@ body {
   .main .hero .heroInfo p {
     width: 90%;
   }
+}
+@media screen and (max-width: 790px) {
+  .main .hero .heading {
+    font-size: 30px;
+  }
+  .main .hero .heroInfo p {
+    font-size: 14px;
+    width: 100%;
+  }
 }/*# sourceMappingURL=main.css.map */

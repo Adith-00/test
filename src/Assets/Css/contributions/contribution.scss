@@ -65,3 +65,22 @@
      }   
 
 }
+@media screen and (max-width: 790px){
+    .contributions{
+        .description{
+            p{
+                width: 90%;
+                font-size: 14px;
+            }
+        }
+        .counts{
+            .itm{
+                .info{
+                    width: 100%;
+                }
+            }
+            
+        }
+     }   
+
+}

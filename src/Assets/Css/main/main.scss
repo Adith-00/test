@@ -131,3 +131,19 @@ body{
      }   
 
 }
+@media screen and (max-width: 790px){
+        .main{
+            .hero{
+                .heading{
+                    font-size: 30px;
+                }
+                .heroInfo{
+                    p{
+                       font-size: 14px;
+                       width: 100%;
+                    }
+                }
+            }
+        }
+
+}

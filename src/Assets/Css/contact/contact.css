@@ -46,4 +46,13 @@
   .contact .info {
     width: 60%;
   }
+}
+@media screen and (max-width: 790px) {
+  .contact .title {
+    font-size: 28px;
+  }
+  .contact .info {
+    width: 60%;
+    font-size: 15px;
+  }
 }/*# sourceMappingURL=contact.css.map */

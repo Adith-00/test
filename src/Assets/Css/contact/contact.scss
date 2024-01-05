@@ -50,3 +50,15 @@
         }
 
     }
+    @media screen and (max-width: 790px){
+        .contact{
+            .title{
+                font-size: 28px;
+
+            }
+            .info{
+                width: 60%;
+                font-size: 15px;
+            }
+        }
+    }

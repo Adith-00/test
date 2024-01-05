@@ -53,4 +53,13 @@
   .contributions .counts .itm .info {
     width: 100%;
   }
+}
+@media screen and (max-width: 790px) {
+  .contributions .description p {
+    width: 90%;
+    font-size: 14px;
+  }
+  .contributions .counts .itm .info {
+    width: 100%;
+  }
 }/*# sourceMappingURL=contribution.css.map */
