@@ -27,6 +27,7 @@
         justify-content: space-around;
         .itm{
             display: flex;
+            min-width: 110px;
             flex-direction: column;
             gap: 15px;
             align-items: center;
@@ -74,6 +75,7 @@
             }
         }
         .counts{
+            flex-wrap: wrap;
             .itm{
                 .info{
                     width: 100%;
@@ -84,7 +86,7 @@
      }   
 
 }
-@media screen and (max-width: 640px){
+@media screen and (max-width: 650px){
     .contributions{
         .description{
             p{

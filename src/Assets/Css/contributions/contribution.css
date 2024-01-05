@@ -28,6 +28,7 @@
 }
 .contributions .counts .itm {
   display: flex;
+  min-width: 110px;
   flex-direction: column;
   gap: 15px;
   align-items: center;
@@ -59,11 +60,14 @@
     width: 90%;
     font-size: 14px;
   }
+  .contributions .counts {
+    flex-wrap: wrap;
+  }
   .contributions .counts .itm .info {
     width: 100%;
   }
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 650px) {
   .contributions .description p {
     width: 90%;
     font-size: 12px;

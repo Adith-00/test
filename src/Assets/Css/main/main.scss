@@ -71,7 +71,7 @@ body{
             word-spacing: 6px;
         }
         .image{
-            width: 90%;
+            width: 100%;
             img{
                 width: 100%;
                 display: block;
@@ -120,6 +120,7 @@ body{
      .main{
         .hero{
             .heading{
+                width: 100%;
                 font-size: 37px;
             }
             .heroInfo{
@@ -140,10 +141,30 @@ body{
                 .heroInfo{
                     p{
                        font-size: 14px;
-                       width: 100%;
                     }
                 }
             }
         }
+
+}
+@media screen and (max-width: 650px){
+    .main{
+        .hero{
+            .heading{
+                font-size: 20px;
+            }
+            .heroInfo{
+                p{
+                   font-size: 12px;
+                   width: 100%;
+                }
+                .heroButton{
+                    width: 50%;
+                    font-size: 12px;
+                }
+            }
+           
+        }
+    }
 
 }

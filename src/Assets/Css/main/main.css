@@ -70,7 +70,7 @@ body {
   word-spacing: 6px;
 }
 .main .hero .image {
-  width: 90%;
+  width: 100%;
 }
 .main .hero .image img {
   width: 100%;
@@ -116,6 +116,7 @@ body {
 
 @media screen and (max-width: 1097px) {
   .main .hero .heading {
+    width: 100%;
     font-size: 37px;
   }
   .main .hero .heroInfo p {
@@ -128,6 +129,18 @@ body {
   }
   .main .hero .heroInfo p {
     font-size: 14px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .main .hero .heading {
+    font-size: 20px;
+  }
+  .main .hero .heroInfo p {
+    font-size: 12px;
     width: 100%;
+  }
+  .main .hero .heroInfo .heroButton {
+    width: 50%;
+    font-size: 12px;
   }
 }/*# sourceMappingURL=main.css.map */
