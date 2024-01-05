@@ -84,3 +84,26 @@
      }   
 
 }
+@media screen and (max-width: 640px){
+    .contributions{
+        .description{
+            p{
+                width: 90%;
+                font-size: 12px;
+            }
+        }
+        .counts{
+            .itm{
+                .count{
+                    font-size: 30px;
+                }
+                .info{
+                    font-size: 12px;
+                    width: 100%;
+                }
+            }
+            
+        }
+     }   
+
+}

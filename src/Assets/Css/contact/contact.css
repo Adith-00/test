@@ -55,4 +55,17 @@
     width: 60%;
     font-size: 15px;
   }
+}
+@media screen and (max-width: 640px) {
+  .contact .title {
+    font-size: 20px;
+  }
+  .contact .info {
+    width: 90%;
+    font-size: 13px;
+    word-spacing: 1px;
+  }
+  .contact .buttons {
+    justify-content: center;
+  }
 }/*# sourceMappingURL=contact.css.map */

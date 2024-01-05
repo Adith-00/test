@@ -62,3 +62,20 @@
             }
         }
     }
+    @media screen and (max-width: 640px){
+        .contact{
+            .title{
+                font-size: 20px;
+
+            }
+            .info{
+                width: 90%;
+                font-size: 13px;
+                word-spacing: 1px;
+            }
+            .buttons{
+                justify-content: center;
+            }
+        }
+        
+    }
