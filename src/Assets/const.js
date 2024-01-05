@@ -8,12 +8,12 @@ import { card1, card2, card3 } from "./Images/image";
     },
     {
         id:2,
-        cardImage:card2,
+        cardImage:card1,
         text:"Team Up With Friends By Sprinting, Climbing And Smashing Your Way To Earn Your Victory Royale"
     },
     {
         id:3,
-        cardImage:card1,
+        cardImage:card2,
         text:"Discover Even More Ways To Play Across Thousands Of Creator-Made Game Genres"
 
     }
