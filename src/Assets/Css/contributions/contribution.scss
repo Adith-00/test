@@ -1,19 +1,22 @@
-.contributions{
+.contributions {
     display: flex;
     flex-direction: column;
     gap: 70px;
-    .description{
+
+    .description {
         display: flex;
         gap: 20px;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        h2{
+
+        h2 {
             font-size: 35px;
             font-weight: 300;
 
         }
-        p{
+
+        p {
             text-align: center;
             width: 50%;
             overflow-wrap: anywhere;
@@ -22,21 +25,25 @@
             font-weight: 200;
         }
     }
-    .counts{
+
+    .counts {
         display: flex;
         justify-content: space-around;
-        .itm{
+
+        .itm {
             display: flex;
             min-width: 110px;
             flex-direction: column;
             gap: 15px;
             align-items: center;
             width: 20%;
-            .count{
+
+            .count {
                 font-size: 40px;
                 font-weight: 300;
             }
-            .info{
+
+            .info {
                 width: 50%;
                 text-align: center;
                 overflow-wrap: break-word;
@@ -48,64 +55,72 @@
     }
 
 }
-@media screen and (max-width: 1097px){
-     .contributions{
-        .description{
-            p{
+
+@media screen and (max-width: 1097px) {
+    .contributions {
+        .description {
+            p {
                 width: 70%;
             }
         }
-        .counts{
-            .itm{
-                .info{
+
+        .counts {
+            .itm {
+                .info {
                     width: 100%;
                 }
             }
-            
+
         }
-     }   
+    }
 
 }
-@media screen and (max-width: 790px){
-    .contributions{
-        .description{
-            p{
+
+@media screen and (max-width: 790px) {
+    .contributions {
+        .description {
+            p {
                 width: 90%;
                 font-size: 14px;
             }
         }
-        .counts{
+
+        .counts {
             flex-wrap: wrap;
-            .itm{
-                .info{
+
+            .itm {
+                .info {
                     width: 100%;
                 }
             }
-            
+
         }
-     }   
+    }
 
 }
-@media screen and (max-width: 650px){
-    .contributions{
-        .description{
-            p{
+
+@media screen and (max-width: 650px) {
+    .contributions {
+        .description {
+            p {
                 width: 90%;
                 font-size: 12px;
             }
         }
-        .counts{
-            .itm{
-                .count{
+
+        .counts {
+            .itm {
+                .count {
                     font-size: 30px;
                 }
-                .info{
+
+                .info {
                     font-size: 12px;
                     width: 100%;
                 }
             }
-            
+
         }
-     }   
+    }
 
 }

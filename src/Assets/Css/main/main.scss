@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
@@ -10,79 +10,94 @@
     outline: none;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    &::-webkit-scrollbar{
+
+    &::-webkit-scrollbar {
         display: none;
     }
-    button{
+
+    button {
         cursor: pointer;
     }
 }
-body{
+
+body {
     background-color: black;
-    
-    
+
+
 }
+
 .wrapper {
     width: 90%;
     margin: 0 auto;
 }
-.main{
-     color: white;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     gap: 100px;
-     .close{
+
+.main {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
+
+    .close {
         align-self: fl;
         display: flex;
         align-items: center;
         justify-content: flex-end;
         padding: 30px;
-         .image{
+
+        .image {
             width: 30px;
             height: 30px;
             cursor: pointer;
-            &:hover{
-                img{
+
+            &:hover {
+                img {
                     transition: 0.3s ease-in;
                     transform: rotate(-180deg);
                 }
-               
+
             }
-            img{
+
+            img {
                 transition: 0.3s ease-out;
                 width: 100%;
                 display: block;
-              }
-         }
-         
-     }
-     .hero{
+            }
+        }
+
+    }
+
+    .hero {
         display: flex;
         flex-direction: column;
         gap: 30px;
         align-items: center;
         justify-content: center;
-        .heading{
+
+        .heading {
             width: 80%;
             font-size: 40px;
             font-weight: 300;
             text-align: center;
             word-spacing: 6px;
         }
-        .image{
+
+        .image {
             width: 100%;
-            img{
+
+            img {
                 width: 100%;
                 display: block;
             }
         }
-        .heroInfo{
+
+        .heroInfo {
             display: flex;
             flex-direction: column;
             gap: 20px;
             align-items: center;
-            p{
+
+            p {
                 width: 70%;
                 overflow-wrap: anywhere;
                 text-align: center;
@@ -90,7 +105,8 @@ body{
                 font-size: 18px;
                 font-weight: 200;
             }
-            .heroButton{
+
+            .heroButton {
                 display: flex;
                 width: 30%;
                 height: 45px;
@@ -101,69 +117,78 @@ body{
                 text-align: center;
                 background-color: white;
                 color: black;
-                &:hover{
+
+                &:hover {
                     transition: 0.2s ease;
                     background-color: rgba(255, 255, 255, 0.769);
                 }
             }
         }
-     }
-     .footer{
+    }
+
+    .footer {
         font-size: 12px;
         font-weight: 600;
         color: rgba(255, 255, 255, 0.626);
         text-align: center;
         padding: 10px;
-     }
+    }
 }
-@media screen and (max-width: 1097px){
-     .main{
-        .hero{
-            .heading{
+
+@media screen and (max-width: 1097px) {
+    .main {
+        .hero {
+            .heading {
                 width: 100%;
                 font-size: 37px;
             }
-            .heroInfo{
-                p{
+
+            .heroInfo {
+                p {
                     width: 90%;
                 }
             }
         }
-     }   
+    }
 
 }
-@media screen and (max-width: 790px){
-        .main{
-            .hero{
-                .heading{
-                    font-size: 30px;
-                }
-                .heroInfo{
-                    p{
-                       font-size: 14px;
-                    }
+
+@media screen and (max-width: 790px) {
+    .main {
+        .hero {
+            .heading {
+                font-size: 30px;
+            }
+
+            .heroInfo {
+                p {
+                    font-size: 14px;
                 }
             }
         }
+    }
 
 }
-@media screen and (max-width: 650px){
-    .main{
-        .hero{
-            .heading{
+
+@media screen and (max-width: 650px) {
+    .main {
+        .hero {
+            .heading {
                 font-size: 20px;
             }
-            .heroInfo{
-                p{
-                   font-size: 12px;
-                   width: 100%;
+
+            .heroInfo {
+                p {
+                    font-size: 12px;
+                    width: 100%;
                 }
-                .heroButton{
+
+                .heroButton {
                     width: 50%;
                     font-size: 12px;
                 }
             }
-           
+
         }
     }
 
